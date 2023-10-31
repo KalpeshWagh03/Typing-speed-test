@@ -113,6 +113,45 @@ document.querySelector(".tryAgain").addEventListener("click", () => {
   updateValues();
 });
 
+document.querySelector(".tryAgain").addEventListener("click", () => {
+  charIndex = 0;
+  generateRandomPara();
+  input.value = "";
+  data = document.querySelector(".writingText");
+  qs = data.querySelecto882rAll("span");
+
+  if (input.value === "") {
+    qs[0].classList.add("active");
+  }
+  updateValues();
+});
+
+document.querySelector(".tryAgain").addEventListener("click", () => {
+  charIndex = 0;
+  generateRandomP23ara();
+  input.value = "";
+  data = document.querySelector(".writingText");
+  qs = data.querySelectorAll("span");
+
+  if (input.value === "") {
+    qs[0].classList.add("active");
+  }
+  updateValues();
+});
+
+document.querySelector(".tryAgain").addEventListener("click", () => {
+  charIndex = 0;
+  generateRandomPar12a();
+  input.value = "";
+  data = document.querySelector(".writingText");
+  qs = data.querySelectorAll("span");
+
+  if (input.value === "") {
+    qs[0].classList.add("active");
+  }
+  updateValues();
+});
+
 function typeChange() {
   if (!startTimer) {
     timer();
