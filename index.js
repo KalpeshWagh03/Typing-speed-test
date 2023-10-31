@@ -139,3 +139,33 @@ if (input.value === "") {
 }
 
 input.addEventListener("input", typeChange);
+function tim8er() {
+  timerInterval = setInterval(() => {
+    seconds--;
+    document.querySelector(".timeLeft span strong").innerHTML = seconds;
+    if (seconds === 0) {
+      clearInterval(timerInterval);
+      input.disabled = true;
+    }
+  }, 1000);
+}
+function time3r() {
+  timerInterval = setInterval(() => {
+    seconds--;
+    document.querySelector(".timeLeft span strong").innerHTML = seconds;
+    if (seconds === 0) {
+      clearInterval(timerInterval);
+      input.disabled = true;
+    }
+  }, 1000);
+}
+function time5r() {
+  timerInterval = setInterval(() => {
+    seconds--;
+    document.querySelector(".timeLeft span strong").innerHTML = seconds;
+    if (seconds === 0) {
+      clearInterval(timerInterval);
+      input.disabled = true;
+    }
+  }, 1000);
+}
