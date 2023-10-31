@@ -26,7 +26,32 @@ body {
   border-radius: 1rem;
 }
 
+.mainDiv1 {
+  max-width: 55rem;
+  margin: auto;
+  margin-top: 8rem;
+  font-size: 1.7rem;
+  background-color: #fff;
+  padding: 2.5rem;
+  border-radius: 1rem;
+}
+
 .mainBox {
+  background-color: #fff;
+  padding: 2rem;
+  /* max-height: 30rem; */
+  border: 1px solid grey;
+  border-radius: 1rem;
+  line-height: 2.5rem;
+  text-align: justify;
+  font-weight: 500;
+  color: rgb(22, 17, 17);
+  /* overflow-x:hidden;
+  overflow-y: scroll;
+  word-wrap: break-word; */
+}
+
+.mainBox12 {
   background-color: #fff;
   padding: 2rem;
   /* max-height: 30rem; */
